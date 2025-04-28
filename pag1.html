@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TAB - Sua Jornada Começa Aqui</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <section>
-      <header></header>
+    <header class="header">
+      <div class="container">
+        <div class="logo">TAB</div>
+        <nav class="nav">
+          <a href="#">Passagens</a>
+          <a href="#">Pacotes</a>
+          <a href="#">Hotéis</a>
+          <a href="#">Carros</a>
+          <a href="#">Ajuda</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Encontre as melhores passagens aéreas</h1>
+        <form class="search-form">
+          <input type="text" placeholder="Origem" />
+          <input type="text" placeholder="Destino" />
+          <input type="date" placeholder="Data de ida" />
+          <input type="date" placeholder="Data de volta" />
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
     </section>
+
+    <section class="promo">
+      <div class="container">
+        <h2>Ofertas Especiais</h2>
+        <div class="promo-cards">
+          <div class="card">
+            <img src="imagem-video/1.png" alt="Promo 1" />
+            <h3>Rio de Janeiro a partir de R$299</h3>
+          </div>
+          <div class="card">
+            <img src="imagem-video/2.png" alt="Promo 2" />
+            <h3>Buzios com 20% OFF</h3>
+          </div>
+          <div class="card">
+            <img src="imagem-video/3.png" alt="Promo 3" />
+            <h3>Bahia - Voos Diretos</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 TAB Aviação - Todos os direitos reservados.</p>
+      </div>
+    </footer>
   </body>
 </html>
