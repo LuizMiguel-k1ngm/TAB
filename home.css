@@ -16,7 +16,7 @@ html {
   height: 100vh;
 }
 
-video {
+.homePageGif {
   position: absolute;
   top: 0;
   left: 0;
