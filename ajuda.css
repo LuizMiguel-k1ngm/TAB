@@ -1,0 +1,36 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f3f0ff;
+  color: #000000;
+}
+
+header,
+footer {
+  background-color: #4a148c;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
